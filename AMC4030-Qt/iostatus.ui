@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>IOStatus</class>
+ <widget class="QDialog" name="IOStatus">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>870</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>30</y>
+     <width>631</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>629</width>
+      <height>359</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pb_StopAll">
+   <property name="geometry">
+    <rect>
+     <x>661</x>
+     <y>416</y>
+     <width>74</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>停止所有</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_StartAll">
+   <property name="geometry">
+    <rect>
+     <x>555</x>
+     <y>416</y>
+     <width>74</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>启动所有</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_ResetCur">
+   <property name="geometry">
+    <rect>
+     <x>423</x>
+     <y>416</y>
+     <width>74</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>复位选中</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_StopCur">
+   <property name="geometry">
+    <rect>
+     <x>317</x>
+     <y>416</y>
+     <width>74</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>停止选中</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_StartCur">
+   <property name="geometry">
+    <rect>
+     <x>211</x>
+     <y>416</y>
+     <width>74</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>启动选中</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_ResetAll">
+   <property name="geometry">
+    <rect>
+     <x>767</x>
+     <y>416</y>
+     <width>73</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>复位所有</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_SetCur">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>420</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确认修改</string>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>33</x>
+     <y>33</y>
+     <width>149</width>
+     <height>280</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string notr="true">1</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>330</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>已选中</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_CurID">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>号节点</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>370</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>修改为：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>号节点</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>0</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>0</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>修改在线节点</string>
+   </property>
+  </widget>
+  <zorder>layoutWidget</zorder>
+  <zorder>treeWidget</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>scrollArea</zorder>
+  <zorder>pb_StopAll</zorder>
+  <zorder>pb_StartAll</zorder>
+  <zorder>pb_ResetCur</zorder>
+  <zorder>pb_StopCur</zorder>
+  <zorder>pb_StartCur</zorder>
+  <zorder>pb_ResetAll</zorder>
+  <zorder>pb_SetCur</zorder>
+  <zorder>lineEdit_2</zorder>
+  <zorder>pushButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
