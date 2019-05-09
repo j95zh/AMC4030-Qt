@@ -48,8 +48,6 @@ public:
     QLabel *label_4;
     QLineEdit *lineEdit;
     QLabel *label_5;
-    QLineEdit *lineEdit_2;
-    QPushButton *pushButton;
 
     void setupUi(QDialog *IOStatus)
     {
@@ -134,12 +132,6 @@ public:
 
         horizontalLayout_2->addWidget(label_5);
 
-        lineEdit_2 = new QLineEdit(IOStatus);
-        lineEdit_2->setObjectName(QStringLiteral("lineEdit_2"));
-        lineEdit_2->setGeometry(QRect(50, 0, 113, 20));
-        pushButton = new QPushButton(IOStatus);
-        pushButton->setObjectName(QStringLiteral("pushButton"));
-        pushButton->setGeometry(QRect(180, 0, 91, 23));
         layoutWidget->raise();
         treeWidget->raise();
         layoutWidget->raise();
@@ -151,8 +143,6 @@ public:
         pb_StartCur->raise();
         pb_ResetAll->raise();
         pb_SetCur->raise();
-        lineEdit_2->raise();
-        pushButton->raise();
 
         retranslateUi(IOStatus);
 
@@ -174,7 +164,6 @@ public:
         label_2->setText(QApplication::translate("IOStatus", "\345\217\267\350\212\202\347\202\271", 0));
         label_4->setText(QApplication::translate("IOStatus", "\344\277\256\346\224\271\344\270\272\357\274\232", 0));
         label_5->setText(QApplication::translate("IOStatus", "\345\217\267\350\212\202\347\202\271", 0));
-        pushButton->setText(QApplication::translate("IOStatus", "\344\277\256\346\224\271\345\234\250\347\272\277\350\212\202\347\202\271", 0));
     } // retranslateUi
 
 };

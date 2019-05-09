@@ -363,9 +363,3 @@ void IOStatus::on_pb_ResetAll_clicked()
 {
 
 }
-
-//测试使用，修改在线节点
-void IOStatus::on_pushButton_clicked()
-{
-    g_everyNodeOnline=ui->lineEdit_2->text().toInt();
-}

@@ -58,8 +58,6 @@ private slots:
 
     void on_pb_ResetAll_clicked();
 
-    void on_pushButton_clicked();
-
 private:
     Ui::IOStatus *ui;
 

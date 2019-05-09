@@ -207,29 +207,6 @@
     </item>
    </layout>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
-   <property name="geometry">
-    <rect>
-     <x>50</x>
-     <y>0</y>
-     <width>113</width>
-     <height>20</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>180</x>
-     <y>0</y>
-     <width>91</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>修改在线节点</string>
-   </property>
-  </widget>
   <zorder>layoutWidget</zorder>
   <zorder>treeWidget</zorder>
   <zorder>layoutWidget</zorder>
@@ -241,8 +218,6 @@
   <zorder>pb_StartCur</zorder>
   <zorder>pb_ResetAll</zorder>
   <zorder>pb_SetCur</zorder>
-  <zorder>lineEdit_2</zorder>
-  <zorder>pushButton</zorder>
  </widget>
  <resources/>
  <connections/>
